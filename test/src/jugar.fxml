@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="536.0" prefWidth="810.0" style="-fx-background-color: #FFD3B4;" stylesheets="@static/styles.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.questionController">
+   <children>
+      <Button id="pregunta1" fx:id="firstAnswer" layoutX="122.0" layoutY="233.0" mnemonicParsing="false" onAction="#firstAnswerClicked" prefHeight="51.0" prefWidth="268.0" styleClass="btn" stylesheets="@static/styles.css" text="Button" />
+      <Button id="pregunta2" fx:id="secondAnswer" layoutX="420.0" layoutY="233.0" mnemonicParsing="false" onAction="#secondAnswerClicked" prefHeight="51.0" prefWidth="268.0" styleClass="btn" text="Button">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button id="pregunta3" fx:id="thirdAnswer" layoutX="122.0" layoutY="327.0" mnemonicParsing="false" onAction="#thirdAnswerClicked" prefHeight="51.0" prefWidth="268.0" styleClass="btn" text="Button">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button id="pregunta4" fx:id="fourthAnswer" layoutX="420.0" layoutY="327.0" mnemonicParsing="false" onAction="#fourthAnswerClicked" prefHeight="51.0" prefWidth="268.0" styleClass="btn" text="Button" />
+      <Text fx:id="question" layoutX="96.0" layoutY="139.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="pregunta" text="¿Pregunta?" textAlignment="CENTER" wrappingWidth="617.74609375" />
+      <Button layoutX="599.0" layoutY="463.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="89.0" styleClass="btn" text="Continuar" />
+   </children>
+</AnchorPane>

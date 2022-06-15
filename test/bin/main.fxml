@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="536.0" prefWidth="810.0" style="-fx-background-color: #FFD3B4;" stylesheets="@static/styles.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.MainMenuController">
+   <children>
+      <ImageView id="logo" fx:id="img" fitHeight="454.0" fitWidth="515.0" layoutX="178.0" layoutY="-34.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@static/logo.png" />
+         </image>
+      </ImageView>
+      <Button id="btnJugar" fx:id="btnJugar" alignment="CENTER" contentDisplay="CENTER" layoutX="349.0" layoutY="311.0" mnemonicParsing="false" onAction="#btnJugarClicked" prefHeight="43.0" prefWidth="113.0" styleClass="btn" text="Jugar" />
+      <Button id="btnReglas" fx:id="btnReglas" alignment="CENTER" contentDisplay="CENTER" layoutX="349.0" layoutY="383.0" mnemonicParsing="false" onAction="#btnReglasClicked" prefHeight="43.0" prefWidth="113.0" styleClass="btn" text="Reglas" />
+   </children>
+</AnchorPane>
